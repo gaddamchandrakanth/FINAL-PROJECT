@@ -11,4 +11,9 @@
 
    Once it was done , Now Jenkins will Pickup the selenium Srcipt which are created by the Testing Team, to check the application is working on every Q/a server.
 
-.  Everything was fine then we deploy into Live Environment in KUBECTL uisng the kop server and with master and multiple worker machines.
+.  Everything was fine then we deploy into Live Environment in KUBECTL uisng with master and multiple worker machines.
+
+
+
+  NOTED :  herec we have used both Jenkin/ ansible together
+          [ Jenkins handled CI/CD automation, while Ansible ensured consistent deployments across multiple QA servers.]
