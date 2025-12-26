@@ -1,0 +1,14 @@
+.  We Created DockerFile from the Devloper'S code &  push them into the Gitrepositroy
+
+   Now Using the Jenkins, we downloaded the dockerfiles &  Uploaded them into Registry, Once they available in the registry
+
+
+.  Here we used Ansible for testing env & because we are going to test in multiple Q/A server's
+   to control the multiple Q/A server we created the Ansible controll machine , using the SSH connection the controller machine get connect with all Q/A server'S.
+
+   we created Ansiblelplaybooks to download the dockerfile and create the Container's out of it.
+    [ these ansible playbooks will be trigger or executed by the Jenkins ]
+
+   Once it was done , Now Jenkins will Pickup the selenium Srcipt which are created by the Testing Team, to check the application is working on every Q/a server.
+
+.  Everything was fine then we deploy into Live Environment in KUBECTL uisng the kop server and with master and multiple worker machines.
